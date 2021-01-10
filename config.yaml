@@ -44,7 +44,7 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
+    enabled: false # needs to be explicitly set
     title: Tjark Rasche
     # imageUrl: '<img location>'
     # imageTitle: my image
@@ -79,3 +79,8 @@ menu:
       name: tags
       url: /tags/
       weight: 20
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
