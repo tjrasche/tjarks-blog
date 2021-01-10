@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com"
+baseURL: "https://www.rasche.dev"
 title: Tjark Rasche
 paginate: 10
 theme: hugo-PaperMod
@@ -37,10 +37,7 @@ params:
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
 
-  label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+
 
   # profile-mode
   profileMode:
@@ -71,11 +68,11 @@ params:
 
 menu:
   main:
-    - identifier: categories
+    - identifier: Categories
       name: categories
       url: /categories/
       weight: 10
-    - identifier: tags
+    - identifier: Tagd
       name: tags
       url: /tags/
       weight: 20
